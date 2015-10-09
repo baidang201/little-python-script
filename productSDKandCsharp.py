@@ -13,11 +13,14 @@ listSDK.append([ "HVAPI_GetPMTagAdv",     "GetPMTag",     "GETTER",     "STRING"
 listSDK.append([ "HVAPI_SetPMMainSNAdv",     "SetPMMainSN",     "SETTER",     "STRING",     "设置主序列号" ])  #可批量
 listSDK.append([ "HVAPI_GetPMMainSNAdv",     "GetPMMainSN",     "GETTER",     "STRING",     "获取主序列号" ])
 listSDK.append([ "HVAPI_GetGPSInfoAdv",     "GetGPSInfo",     "GETTER",     "STRING",     "获取地理信息" ])
-'''
+
 listSDK.append([ "HVAPI_ResetCoilTiggerCount",     "ResetCoilTiggerCount",     "SETTER",     "NULL",     "清零线圈触发次数" ])
 listSDK.append([ "HVAPI_GetCoilTiggerCount",     "GetCoilTiggerCount",     "GETTER",     "INT",     "获取线圈触发次数" ])
+listSDK.append([ "HVAPI_AutoTestIOAdv",     "AutoTestIO",     "SETTER",     "NULL",     "自动化IO测试" ])
+'''
 
-
+listSDK.append([ "HVAPI_StartAutoTestIOAdv",     "StartAutoTestIOAdv",     "SETTER",     "STRING",     "启动自动化IO测试" ])
+listSDK.append([ "HVAPI_GetAutoTestIOAdvStatusAdv",     "GetAutoTestIOAdvStatus",     "GETTER",     "STRING",     "获取自动化IO测试状态及报告" ])
 
 
 NULLSETHeaderDeclaration = '''
